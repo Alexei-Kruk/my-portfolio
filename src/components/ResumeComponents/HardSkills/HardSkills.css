@@ -1,6 +1,5 @@
 .hard-skills__item {
   max-height: 400px;
-  width: auto;
 }
 
 .hs-block {
@@ -15,7 +14,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 4vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 3vh;
 }
 

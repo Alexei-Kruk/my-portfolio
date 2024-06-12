@@ -1,0 +1,21 @@
+.what-can__item {
+    margin-bottom: 5vh;
+}
+
+.wc__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 3vh;
+    margin-top: 5vh;
+}
+
+.wc--text {
+    font-size: 20px;
+}
+
+.wc--img {
+    min-width: 50px;
+    max-width: 50px;
+}

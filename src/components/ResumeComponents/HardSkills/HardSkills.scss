@@ -1,6 +1,5 @@
 .hard-skills__item {
     max-height: 400px;
-    width: auto;
 }
 
 .hs-block {
@@ -10,7 +9,7 @@
 .column-block {
     display: flex;
     flex-direction: row;
-    gap: 4vh;
+    justify-content: space-between;
 
     margin-bottom: 3vh;
 }

@@ -26,11 +26,11 @@ export const Resume = () => {
                         <div className="exper-educ resume__item--flex">
                             <Experience />
                             <Education />
+                            <HobbiesAndInterests />
                         </div>
 
                         <div className="what-can-hobby resume__item--flex">
                             <WhatCanIDo />
-                            <HobbiesAndInterests />
                         </div>    
                     </div>
                 </div>

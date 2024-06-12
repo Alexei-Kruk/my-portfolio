@@ -17,6 +17,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: start;
+    gap: 10vh;
 
     padding: 12vh 0 0;
 }
@@ -24,5 +25,5 @@
 .resume__item--flex {
     display: flex;
     flex-direction: column;
-     
+    width: 420px;
 }

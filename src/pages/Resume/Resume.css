@@ -24,6 +24,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+  gap: 10vh;
   padding: 12vh 0 0;
 }
 
@@ -35,4 +36,5 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 420px;
 }/*# sourceMappingURL=Resume.css.map */
