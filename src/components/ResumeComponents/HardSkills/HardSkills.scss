@@ -1,0 +1,33 @@
+.hard-skills__item {
+    max-height: 400px;
+    width: auto;
+}
+
+.hs-block {
+    width: auto;
+}
+
+.column-block {
+    display: flex;
+    flex-direction: row;
+    gap: 4vh;
+
+    margin-bottom: 3vh;
+}
+
+.hs-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.hs-item--img {
+    max-width: 40px;
+    min-width: 40px;
+}
+
+.hs-item--text {
+    font-size: 20px;
+    padding: 1vh 2vh;
+}

@@ -1,0 +1,46 @@
+.hard-skills__item {
+  max-height: 400px;
+  width: auto;
+}
+
+.hs-block {
+  width: auto;
+}
+
+.column-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 4vh;
+  margin-bottom: 3vh;
+}
+
+.hs-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hs-item--img {
+  max-width: 40px;
+  min-width: 40px;
+}
+
+.hs-item--text {
+  font-size: 20px;
+  padding: 1vh 2vh;
+}/*# sourceMappingURL=HardSkills.css.map */

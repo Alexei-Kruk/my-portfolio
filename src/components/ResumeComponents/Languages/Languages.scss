@@ -1,0 +1,26 @@
+.languages__item {
+
+}
+
+.resume-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+}
+
+.lang-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    padding-right: 20px;
+}
+
+.lang__text {
+    font-size: 20px;
+}
+
+.lang__img {
+    width: 260px;
+}

@@ -1,0 +1,47 @@
+.header-wrapper {
+    left: 0;
+    right: 0;
+
+    padding: 1vh 2vh;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+
+    font-weight: 300;
+    font-size: 20px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav__phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1.5vh;
+    margin-right: 4vh;
+}
+
+.icon__size {
+    width: 28px;
+}

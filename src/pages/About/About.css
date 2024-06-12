@@ -1,0 +1,70 @@
+.about-wrapper {
+  width: 100%;
+  height: 100vh;
+  background: url("./img/bg-img-about(1).png") center/100% auto no-repeat;
+}
+
+.about-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 690px;
+  margin-left: 11.3vw;
+  padding-top: 20vh;
+}
+
+.about__title {
+  text-transform: uppercase;
+  -webkit-text-decoration: underline 2.2px var(--theme-color);
+          text-decoration: underline 2.2px var(--theme-color);
+  text-underline-offset: 10px;
+  font-size: 44px;
+}
+
+.about-email {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.about-description {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: justify;
+  padding: 30px 0;
+}
+
+.about-adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5vw;
+  margin-top: 15vh;
+  margin-right: 10vh;
+}
+
+.adress {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.line {
+  color: #000;
+  border-bottom: 1px solid var(--theme-color);
+  padding-top: 3px;
+  -ms-flex-item-align: start;
+      align-self: start;
+}/*# sourceMappingURL=About.css.map */

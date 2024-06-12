@@ -1,0 +1,38 @@
+.resume-wrapper {
+  width: 100%;
+  height: 100vh;
+  background: url("./img/bg-img-resume.jpg") center/110% auto no-repeat;
+}
+
+.resume-color {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(35, 35, 35, 0.5);
+}
+
+.resume-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 12vh 0 0;
+}
+
+.resume__item--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}/*# sourceMappingURL=Resume.css.map */

@@ -1,0 +1,8 @@
+.resume-title {
+  text-transform: uppercase;
+  -webkit-text-decoration: underline 2.2px var(--theme-color);
+          text-decoration: underline 2.2px var(--theme-color);
+  text-underline-offset: 7px;
+  font-size: 30px;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=ResumeComponents.css.map */
